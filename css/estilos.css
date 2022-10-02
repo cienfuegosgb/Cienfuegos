@@ -7,7 +7,7 @@ Estilos para el sitio de Cienfuegos
 
 @font-face {
     font-family: 'Vanguard CF';
-    src: url('/fonts/VanguardCF-Bold.woff2') format('woff2'), url('/fonts/VanguardCF-Bold.woff') format('woff');
+    src: url('/Cienfuegos/fonts/VanguardCF-Bold.woff2') format('woff2'), url('/fonts/VanguardCF-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -15,7 +15,7 @@ Estilos para el sitio de Cienfuegos
 
 @font-face {
     font-family: 'Vanguard CF';
-    src: url('/fonts/VanguardCF-Regular.woff2') format('woff2'), url('/fonts/VanguardCF-Regular.woff') format('woff');
+    src: url('/Cienfuegos/fonts/VanguardCF-Regular.woff2') format('woff2'), url('/fonts/VanguardCF-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -23,7 +23,7 @@ Estilos para el sitio de Cienfuegos
 
 @font-face {
     font-family: 'Regards';
-    src: url('/fonts/Regards-Regular.woff2') format('woff2'), url('/fonts/Regards-Regular.woff') format('woff');
+    src: url('/Cienfuegos/fonts/Regards-Regular.woff2') format('woff2'), url('/fonts/Regards-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
