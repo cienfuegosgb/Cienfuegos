@@ -1,0 +1,176 @@
+/*
+Estilos para el sitio de Cienfuegos
+*/
+
+
+/*Tipografía*/
+
+@font-face {
+    font-family: 'Vanguard CF';
+    src: url('/fonts/VanguardCF-Bold.woff2') format('woff2'), url('/fonts/VanguardCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vanguard CF';
+    src: url('/fonts/VanguardCF-Regular.woff2') format('woff2'), url('/fonts/VanguardCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regards';
+    src: url('/fonts/Regards-Regular.woff2') format('woff2'), url('/fonts/Regards-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Body*/
+
+body {
+    font-family: 'Vanguard CF';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Regards';
+    color: #30273f;
+}
+
+
+/*Cabecera*/
+
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/v2_199.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-logo-centered .navbar-nav .nav-link {
+    padding: .5em 1em;
+}
+
+.navbar-nav {
+    font-size: 24px;
+    font-family: 'Regards';
+    --bs-navbar-color: rgba(0, 0, 0, );
+}
+
+
+/* Main */
+
+.display-3 {
+    font-family: 'Regards';
+}
+
+.lead-hero {
+    font-size: 36px;
+    color: #30273f;
+}
+
+.lead {
+    color: #30273f;
+    font-size: 20px;
+}
+
+.hero {
+    min-height: 70vh;
+    background: url(/images/v2_234.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 100px;
+    color: #30273f;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #30273f;
+    --bs-btn-border-color: #30273f;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1c1527;
+    --bs-btn-hover-border-color: #1c1527;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #30273f;
+    --bs-btn-active-border-color: #30273f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #937abc;
+    --bs-btn-disabled-border-color: #b1a7c2;
+}
+
+.bg-primary {
+    background-color: #30273f!important;
+}
+
+.card {
+    background-color: #30273f;
+}
+
+.ftype {
+    font-family: 'Vanguard CF';
+}
+
+.platillos-categories {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.platillos-categories .card {
+    transition: all 0.2s;
+}
+
+.platillos-categories .card-title {
+    padding-top: 0.5em;
+}
+
+.platillos-categories a:hover {
+    text-decoration: none;
+}
+
+.platillos-card-active {
+    background: #30273f;
+    border: 0;
+}
+
+.platillos-card {
+    background: #807b89;
+    border: 0;
+}
+
+.platillos-card-active:hover {
+    background: #181221;
+    border-bottom: 5px solid #bea6e5;
+}
+
+.fa-solid {
+    color: white;
+    text-align: center;
+}
+
+.platillos-imagen img {
+    height: 290px;
+    object-fit: cover;
+}
